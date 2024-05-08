@@ -1,4 +1,4 @@
-University of Exeter interactive transport resources
+# University of Exeter interactive transport resources
 
 Academics and students from the Computer Science department at the University of Exeter have been developing these interactive tools to explore different aspects of our city and how we can move around it.
 
