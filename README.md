@@ -6,7 +6,7 @@ In the lead up to this exhibition they shared their ideas with residents and com
 
 This dashboard allows the user to explore how different areas in Exeter can access important services such as GP practices or parks, and shows a combined liveability index of different areas of Exeter based on a variety of data source.  Why don’t you try out and compare different areas?
 
-<a href="[http://example.com/](https://urban-liveability.me)" target="_blank">Click here to open the dashboard</a>
+<a href="https://urban-liveability.me" target="_blank">Click here to open the dashboard</a>
 
 Developed by: Will Frost, and Federico Botta.
  
