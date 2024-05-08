@@ -6,6 +6,8 @@ In the lead up to this exhibition they shared their ideas with residents and com
 
 This dashboard allows the user to explore how different areas in Exeter can access important services such as GP practices or parks, and shows a combined liveability index of different areas of Exeter based on a variety of data source.  Why don’t you try out and compare different areas?
 
+[Click here to open the dashboard](https://urban-liveability.me)
+
 Developed by: Will Frost, and Federico Botta.
  
 This simulation tool allows users to analyse different setups for Low Traffic Neighbourhoods (LTNs). You can see how different LTN designs affect things like pollution levels, travel distances and other measures of quality of life in the area. 
