@@ -1,0 +1,10 @@
+y-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+}
