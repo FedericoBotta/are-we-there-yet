@@ -11,6 +11,7 @@ This dashboard allows the user to explore how different areas in Exeter can acce
 <a href="[https://urban-liveability.me/#/exeter-map]" target="_blank"><button>Click here to open the dashboard</button></a>
 
 Developed by: Will Frost, and Federico Botta.
+
 The work presented in this dashboard is based on Federico Botta's research on mobility, transport data and accessibility.
 
 # Create your own Low Traffic Neighbourhood?
