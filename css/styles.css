@@ -38,14 +38,14 @@ body {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
-    width: 100px; /* Adjust the size as needed */
-    height: 100px; /* Adjust the size as needed */
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
 }
 
 .circle-button img {
     display: block;
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
     border-radius: 50%;
 }
 
