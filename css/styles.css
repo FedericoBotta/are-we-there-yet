@@ -42,6 +42,7 @@ body {
     height: 200px; /* Adjust the size as needed */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition effects */
+    animation: pulsate 1.5s infinite; /* Apply the pulsate animation */
 }
 
 .circle-button img {
@@ -49,6 +50,7 @@ body {
     width: 200px; /* Adjust as needed */
     height: 200px; /* Adjust as needed */
     border-radius: 50%;
+    transition: filter 0.2s; /* Smooth transition for the image filter */
 }
 
 .circle-button:hover {
@@ -67,4 +69,20 @@ body {
 
 .circle-button:hover img {
     filter: brightness(85%); /* Optional: Adds a hover effect to darken the image */
+}
+
+/* Pulsate animation */
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 }
