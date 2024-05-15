@@ -40,6 +40,8 @@ body {
     overflow: hidden;
     width: 200px; /* Adjust the size as needed */
     height: 200px; /* Adjust the size as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition effects */
 }
 
 .circle-button img {
@@ -47,6 +49,20 @@ body {
     width: 200px; /* Adjust as needed */
     height: 200px; /* Adjust as needed */
     border-radius: 50%;
+}
+
+.circle-button:hover {
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Darken the shadow on hover */
+}
+
+.circle-button:active {
+    transform: scale(0.95); /* Slightly shrink the button on click */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Restore the shadow on click */
+}
+
+.circle-button img {
+    transition: filter 0.2s; /* Smooth transition for the image filter */
 }
 
 .circle-button:hover img {
