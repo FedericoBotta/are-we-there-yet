@@ -19,3 +19,25 @@ body {
     font-family: "Helvetica";
     background-color: #732221;
 }
+
+/* Circle button styles */
+.circle-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle-button img {
+    display: block;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 50%;
+}
+
+.circle-button:hover img {
+    filter: brightness(85%); /* Optional: Adds a hover effect to darken the image */
+}
