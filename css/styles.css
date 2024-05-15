@@ -21,6 +21,12 @@ body {
     color: white;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add some margin at the top if needed */
+}
+
 /* Circle button styles */
 .circle-button {
     background: none;
@@ -30,12 +36,14 @@ body {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
 }
 
 .circle-button img {
     display: block;
-    width: 50px; /* Adjust as needed */
-    height: 50px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
     border-radius: 50%;
 }
 
