@@ -1,7 +1,7 @@
 /* styles.css */
 
 .my-button {
-    background-color: #007d69;
+    background-color: #AF1615;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -17,4 +17,5 @@
 
 body {
     font-family: "Helvetica";
+    background-color: #732221;
 }
