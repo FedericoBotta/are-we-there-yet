@@ -60,8 +60,8 @@ body {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
-    width: 200px; /* Adjust the size as needed */
-    height: 200px; /* Adjust the size as needed */
+    width: 210px; /* Adjust the size as needed */
+    height: 210px; /* Adjust the size as needed */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition effects */
 }
