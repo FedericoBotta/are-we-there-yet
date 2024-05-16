@@ -71,6 +71,12 @@ body {
     filter: brightness(85%); /* Optional: Adds a hover effect to darken the image */
 }
 
+.text-container {
+    flex-grow: 1;
+    padding-left: 20px;
+    text-align: left; /* Align the text to the left */
+}
+
 /* Pulsate animation */
 @keyframes pulsate {
     0% {
