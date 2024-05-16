@@ -13,7 +13,7 @@
 
 .heading {
     color: #ffffff;
-    text-align: center; 
+    text-align: left; 
 }
 
 body {
@@ -39,9 +39,11 @@ body {
 
 /* Circle button styles */
 .circle-button {
-    background: none;
+    background: #AF1615;
+    color: #ffffff;
+    text-align: center;
     border: none;
-    padding: 0;
+    padding: 20px;
     cursor: pointer;
     display: inline-block;
     border-radius: 50%;
@@ -50,15 +52,6 @@ body {
     height: 200px; /* Adjust the size as needed */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition effects */
-    animation: pulsate 1s infinite; /* Apply the pulsate animation */
-}
-
-.circle-button img {
-    display: block;
-    width: 200px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    border-radius: 50%;
-    transition: filter 0.2s; /* Smooth transition for the image filter */
 }
 
 .circle-button:hover {
@@ -71,32 +64,8 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Restore the shadow on click */
 }
 
-.circle-button img {
-    transition: filter 0.2s; /* Smooth transition for the image filter */
-}
-
-.circle-button:hover img {
-    filter: brightness(85%); /* Optional: Adds a hover effect to darken the image */
-}
-
 .text-container {
     flex-grow: 1;
     padding-left: 20px;
     text-align: left; /* Align the text to the left */
-}
-
-/* Pulsate animation */
-@keyframes pulsate {
-    0% {
-        transform: scale(1);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    50% {
-        transform: scale(1.1);
-        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    }
-    100% {
-        transform: scale(1);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
 }
