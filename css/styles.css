@@ -51,7 +51,7 @@ body {
     overflow: hidden;
     width: 200px; /* Adjust the size as needed */
     height: 200px; /* Adjust the size as needed */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition effects */
 }
 
