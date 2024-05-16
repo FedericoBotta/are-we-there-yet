@@ -70,3 +70,13 @@ body {
     padding-left: 20px;
     text-align: left; /* Align the text to the left */
 }
+
+.paragraph-large {
+    font-size: 20px; /* Large font size for paragraphs */
+    color: darkgreen; /* Specific color for paragraphs */
+}
+
+.paragraph-small {
+    font-size: 14px; /* Small font size for paragraphs */
+    color: darkgreen; /* Specific color for paragraphs */
+}
