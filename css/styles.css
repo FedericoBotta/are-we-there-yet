@@ -100,7 +100,7 @@ body {
 
 /* Image styling */
 .image-container img {
-    max-width: 25%;
+    max-width: 20%;
     height: auto; /* Ensure the image is responsive */
     border-radius: 8px; /* Optional: Add rounded corners */
 }
