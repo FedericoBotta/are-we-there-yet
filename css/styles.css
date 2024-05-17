@@ -90,3 +90,18 @@ body {
 .paragraph-small {
     font-size: 14px; /* Small font size for paragraphs */
 }
+
+
+/* Image container styling */
+.image-container {
+    margin-top: 20px; /* Space above the image */
+    text-align: center; /* Center the image */
+}
+
+/* Image styling */
+.image-container img {
+    max-width: 100%;
+    height: auto; /* Ensure the image is responsive */
+    border: 2px solid #007BFF; /* Optional: Add a border to the image */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
